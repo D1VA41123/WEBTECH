@@ -1,64 +1,954 @@
-commit 976a9c3f38b3caa60ca7db44dd0fe36b506753ae
+commit c1752f49f46a268010254cff1c619a5cdbf767a4
 Author:     D1VA41123 <delarosachristian155@gmail.com>
-AuthorDate: 2026-10-03 04:05:20 +0000
+AuthorDate: 2026-11-10 04:09:27 +0000
 Commit:     D1VA41123 <delarosachristian155@gmail.com>
-CommitDate: 2026-10-03 04:05:20 +0000
+CommitDate: 2026-11-10 04:09:27 +0000
 
-    test
+    HTML + EMMET
 
-diff --git a/HTML-LAB/about.html b/HTML-LAB/about.html
+diff --git a/delarosa.txt b/delarosa.txt
 new file mode 100644
-index 0000000..e69de29
-diff --git a/HTML-LAB/contacts.html b/HTML-LAB/contacts.html
-new file mode 100644
-index 0000000..e69de29
-diff --git a/HTML-LAB/formatting.html b/HTML-LAB/formatting.html
-new file mode 100644
-index 0000000..ba8e846
+index 0000000..2b5a13b
 --- /dev/null
-+++ b/HTML-LAB/formatting.html
-@@ -0,0 +1,34 @@
-+<html></html><p>
-+<b> &lt;b&gt; is where you BOLD the text</b>
-+</p>
-+<p>
-+<strong>   &lt;strong&gt; is to define a text with STRONG importance. </strong>
-+</p>
-+<p>
-+<i>    &lt;i&gt; it ITALICS the text in HTML </i> 
-+</p>
-+<p>
-+<em>    &lt;em&gt; it Emphasis the text in HTML </em> 
-+</p>
-+<p>
-+<u>    &lt;u&gt; it Underlines the text in HTML </u> 
-+</p>
-+<p>
-+<mark>    &lt;mark&gt; it Highlights the text in HTML </mark> 
-+</p>
-+<p>
-+<small>    &lt;small&gt; it decrease the size of the text in HTML </small> 
-+</p>
-+<p>
-+<del>    &lt;del&gt; it strikes a line in the text in HTML </del> 
-+</p>
-+<p>
-+<ins>    &lt;ins&gt; it shows that the text is newly inserted in the HTML </ins> 
-+</p>
-+<p>
-+<sub>    &lt;sub&gt;  Lowers the text baseline and shrinks it the text in HTML </sub> 
-+</p>
-+<p>
-+<sup>    &lt;sup&gt; Raises the text baseline and shrinks it text in HTML </sup> 
-+</p>
++++ b/delarosa.txt
+@@ -0,0 +1,788 @@
++commit 976a9c3f38b3caa60ca7db44dd0fe36b506753ae
++Author:     D1VA41123 <delarosachristian155@gmail.com>
++AuthorDate: 2026-10-03 04:05:20 +0000
++Commit:     D1VA41123 <delarosachristian155@gmail.com>
++CommitDate: 2026-10-03 04:05:20 +0000
++
++    test
++
++diff --git a/HTML-LAB/about.html b/HTML-LAB/about.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/HTML-LAB/contacts.html b/HTML-LAB/contacts.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/HTML-LAB/formatting.html b/HTML-LAB/formatting.html
++new file mode 100644
++index 0000000..ba8e846
++--- /dev/null
+++++ b/HTML-LAB/formatting.html
++@@ -0,0 +1,34 @@
+++<html></html><p>
+++<b> &lt;b&gt; is where you BOLD the text</b>
+++</p>
+++<p>
+++<strong>   &lt;strong&gt; is to define a text with STRONG importance. </strong>
+++</p>
+++<p>
+++<i>    &lt;i&gt; it ITALICS the text in HTML </i> 
+++</p>
+++<p>
+++<em>    &lt;em&gt; it Emphasis the text in HTML </em> 
+++</p>
+++<p>
+++<u>    &lt;u&gt; it Underlines the text in HTML </u> 
+++</p>
+++<p>
+++<mark>    &lt;mark&gt; it Highlights the text in HTML </mark> 
+++</p>
+++<p>
+++<small>    &lt;small&gt; it decrease the size of the text in HTML </small> 
+++</p>
+++<p>
+++<del>    &lt;del&gt; it strikes a line in the text in HTML </del> 
+++</p>
+++<p>
+++<ins>    &lt;ins&gt; it shows that the text is newly inserted in the HTML </ins> 
+++</p>
+++<p>
+++<sub>    &lt;sub&gt;  Lowers the text baseline and shrinks it the text in HTML </sub> 
+++</p>
+++<p>
+++<sup>    &lt;sup&gt; Raises the text baseline and shrinks it text in HTML </sup> 
+++</p>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/images.html b/HTML-LAB/images.html
++new file mode 100644
++index 0000000..1825121
++--- /dev/null
+++++ b/HTML-LAB/images.html
++@@ -0,0 +1,21 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <body style = background-color:hotpink;>
+++    <center><h1>======================================================================</h1></center>
+++    <center><h1>LAB ACTIVITY 5: IMAGES</h1></center>
+++    <center><h1>======================================================================</h1></center>
+++ <center><img
+++        src="images/68f479d22eadab6b3e2605bab7db41f6.jpg"
+++        alt="Profile Picture"
+++        width="600"
+++        height="600"></center>
+++        <h1><center>TRISTAN PAUL DELAROSA</center></h1>
+++        <h2><center>AN IT STUDENTS WITH A PASSION FOR BEING TO SLAYABLE</center></h2>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg b/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg
++new file mode 100644
++index 0000000..7e65536
++Binary files /dev/null and b/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg differ
++diff --git a/HTML-LAB/index.html b/HTML-LAB/index.html
++new file mode 100644
++index 0000000..cabe39b
++--- /dev/null
+++++ b/HTML-LAB/index.html
++@@ -0,0 +1,24 @@
+++<!DOCTYPE html>
+++<html>
+++<head>
+++<title>GAYYYYYYY</title>
+++
+++<body>
+++    <h1>==========================</h1>
+++    <h1>    My Personal Page</h1>
+++    <h1>==========================</h1>
+++    <h2>My name is Tristan Paul Y. Delaroas</h2>
+++    <h2>CIT14 CITCS-2K GROUP B </h2>
+++    <h2>About me</h2>
+++    <h2>----------------------</h2>
+++    <p>My name is Tristan Paul Delarosa, I am 19 years old, I was was born December 30, 2006 in Agoo, La Union</p>
+++    <h2>My Hobbies</h2>
+++    <h2>----------------------</h2>
+++    <p>My Hobbies are, Playing Games, Live streaming, Singing, Doing Make-up, and Voice Acting Acting</p>
+++    <p>To close this of I would like to say that I will try my best, and GOD will do the the rest, CHARRR!!!</p>
+++    <h2>----------------------</h2>
+++</body>
+++</head>
+++</html>
+++
+++!
++\ No newline at end of file
++diff --git a/HTML-LAB/links.html b/HTML-LAB/links.html
++new file mode 100644
++index 0000000..78de59a
++--- /dev/null
+++++ b/HTML-LAB/links.html
++@@ -0,0 +1,30 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>LINKS</title>
+++</head>
+++<body>
+++    <h1><center>==========================================================================</center></h1>
+++    <h1><center>EXTERNAL LINKS</center></h1>
+++    <h1><center>==========================================================================</center></h1>
+++    <h2><center>GOOGLE</center></h2>
+++   <center><a href="https://google.com">google</a></center>
+++   <h1><center>==========================================================================</center></h1>
+++   <center><h2>YOUTUBE</h2></center>
+++   <center><a href="https://youtube.com">youtube</a></center>
+++   <h1><center>==========================================================================</center></h1>
+++   <center><h2>GITHUB</h2></center>
+++   <center><a href="https://github.com">github</a></center>
+++   <h1><center>==========================================================================</center></h1>
+++   <center><h2>UC CANVAS</h2></center>
+++   <center><a href="https://uc-bcf.instructure.com">UC CANVAS</a></center>
+++   <h1><center>==========================================================================</center></h1>
+++    <h1><center>INTERNAL LINKS</center></h1>
+++    <center><a href="Index.html">HOME</a>
+++    <a href="about.html">ABOUT</a>
+++    <a href="contact.html">CONTACTS</a></center>
+++    <h1><center>==========================================================================</center></h1>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/listing.html b/HTML-LAB/listing.html
++new file mode 100644
++index 0000000..71c1b13
++--- /dev/null
+++++ b/HTML-LAB/listing.html
++@@ -0,0 +1,49 @@
+++<html>
+++<title>LIST</title>
+++<h1><center>==========================================================================</center></h1>
+++<h1><center>MY LIST</center></h1>
+++<h1><center>==========================================================================</center></h1>
+++<h2>============================================</center></h2>
+++<h2>MY FAVORITE FOODS</h2>
+++<h2>============================================</h2>
+++<ul>
+++    <li>Adobo Baboy</li>
+++    <li>Balatong</li>
+++    <li>Sinigang Baboy</li>
+++    <li>Fried Chicken</li>
+++    <li>Dinuguan</li>
+++</ul> 
+++<h2>============================================</h2>
+++<h2>TOP 5 PROGRAMMING LANGUAGES</h2>
+++<h2>============================================</h2>
+++<ol>
+++    <li>CSS</li>
+++    <li>JAVASCRIPT</li>
+++    <li>HTML</li>
+++    <li>PHYTON</li>
+++    <li>JAVA</li>
+++</ol>
+++<h2>============================================</h2>
+++<h2>NESTED LIST</h2>
+++<h2>============================================</h2>
+++<ul>
+++    <li>COMPUTER SCIENCE</li>
+++        <ul>
+++            <li>PROGRAMMING</li>
+++            <ul>
+++                <li>JAVA</li>
+++                <li>PYTHON</li>
+++                <li>PHP</li>
+++            </ul>
+++        </ul>
+++        <ul>
+++            <li>WEB DEVELOPMENT</li>
+++            <ul>
+++                <li>HTML</li>
+++                <li>CSS</li>
+++                <li>JAVASCRIPT</li>
+++            </ul>
+++        </ul>
+++</ul>
+++
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/registration.html b/HTML-LAB/registration.html
++new file mode 100644
++index 0000000..aee42f1
++--- /dev/null
+++++ b/HTML-LAB/registration.html
++@@ -0,0 +1,51 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <center><h1>====================================================================================================</h1></center>
+++    <center><h1>STUDENT REGISTRATION FORM</h1></center>
+++    <center><h1>====================================================================================================</h1></center>
+++<form act="#" method="post">
+++    <laber for="fullname">FULLNAME</laber>
+++    <input type="text" id="fullname" name="fullname" required>
+++    <br><br>
+++
+++    <laber for="studentid">STUDENT ID</laber>
+++    <input type="text" id="studentid" name="studentid" required>
+++    <br><br>
+++
+++    <laber for="email">EMAIL</laber>
+++    <input type="text" id="email" name="email" required>
+++    <br><br>
+++    <laber for="password">PASSWORD</laber>
+++    <input type="password" id="password" name="password" required>
+++    <br><br>
+++
+++    <laber for="birthday">BIRTHDAY</laber>
+++    <input type="date" id="fullname" name="fullname" required>
+++    <br><br>
+++
+++    <laber>GENDER:</laber>
+++    <input type="radio" id="male" name="gender" value="male" required>
+++    <label for="male">MALE</label>
+++
+++        <input type="radio" id="female" name="gender" value="female" required>
+++    <label for="female">FEMALE</label>
+++
+++        <input type="radio" id="other" name="gender" value="other required>
+++    <label for="other">OTHER</label>
+++    <br><br>
+++
+++    <label for="program">PROGRAM</label>
+++    <select id="program" name=program required>
+++        <center><option value="">==PICK A PROGRAM==</option></center>
+++        <option value="BSIT">BACHELOR SCIENCE OF INFORMATION TECHNOLOGY</option>
+++        <option value="BSCS">BACHELOR SCIENCE OF COMPUTER TECHNOLOGY</option>
+++        <option value="BSMMA">BACHELOR SCIENCE OF MULTIMEDIA ARTS</option>
+++    </select>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/schedule.html b/HTML-LAB/schedule.html
++new file mode 100644
++index 0000000..d88233e
++--- /dev/null
+++++ b/HTML-LAB/schedule.html
++@@ -0,0 +1,64 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++      <center><h1>====================================================================================================</h1></center>
+++      <center><h1>LAB 6 LISTING</h1></center>
+++      <center><h1>====================================================================================================</h1></center>
+++    <table>
+++        <tr>
+++            <th>Day</th>
+++            <th>Time</th>
+++            <th>Subject</th>
+++            <th>Room</th>
+++            <th>Instructor</th>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>8:00 AM</td>
+++        <td>CIT14</td>
+++        <td>LAB 1</td>
+++        <td>SIR PRIM</td>
+++        </tr>
+++        <tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>10:00 AM</td>
+++        <td>CC5</td>
+++        <td>LAB 2</td>
+++        <td>SIR JESSIE</td>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>12:00 AM</td>
+++        <td>PathFit 4</td>
+++        <td>GYM</td>
+++        <td>SIR GARRICKSON</td>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>1:00 PM</td>
+++        <td>CIT1</td>
+++        <td>U805</td>
+++        <td>MA'AM ORTIZ</td>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>2:00 AM</td>
+++        <td>SCIENCE 100</td>
+++        <td>S230</td>
+++        <td>MA'AAM VILLAREAL</td>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>4:00 AM</td>
+++        <td>SOC SCI</td>
+++        <td>S237</td>
+++        <td>MA'AM DELA CRUZ</td>
+++        </tr>
+++</body>
+++</html>
++diff --git a/README.md b/README.md
++deleted file mode 100644
++index 862d896..0000000
++--- a/README.md
+++++ /dev/null
++@@ -1 +0,0 @@
++-# WEBTECH
++\ No newline at end of file
++diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
++index e69de29..74e0f12 100644
++--- a/emmet-laboratory/index.html
+++++ b/emmet-laboratory/index.html
++@@ -0,0 +1 @@
+++!
++\ No newline at end of file
++
++commit 12d1cd3e352d60b8494f9b180093d49cc851e5a9
++Author:     D1VA41123 <delarosachristian155@gmail.com>
++AuthorDate: 2026-10-03 04:02:25 +0000
++Commit:     D1VA41123 <delarosachristian155@gmail.com>
++CommitDate: 2026-10-03 04:02:25 +0000
++
++    test
++
++diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
++new file mode 100644
++index 0000000..74e0f12
++--- /dev/null
+++++ b/emmet-laboratory/02-classes-ids.html
++@@ -0,0 +1 @@
+++!
++\ No newline at end of file
++diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
++new file mode 100644
++index 0000000..e69de29
++
++commit a0f92be54a2b89b9a76016a47046c40e63a48bb5
++Author:     D1VA41123 <delarosachristian155@gmail.com>
++AuthorDate: 2026-09-15 11:46:25 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-15 11:46:25 +0800
++
++    Initial commit
++
++diff --git a/README.md b/README.md
++new file mode 100644
++index 0000000..862d896
++--- /dev/null
+++++ b/README.md
++@@ -0,0 +1 @@
+++# WEBTECH
++\ No newline at end of file
++commit 976a9c3f38b3caa60ca7db44dd0fe36b506753ae
++Author:     D1VA41123 <delarosachristian155@gmail.com>
++AuthorDate: 2026-10-03 04:05:20 +0000
++Commit:     D1VA41123 <delarosachristian155@gmail.com>
++CommitDate: 2026-10-03 04:05:20 +0000
++
++    test
++
++diff --git a/HTML-LAB/about.html b/HTML-LAB/about.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/HTML-LAB/contacts.html b/HTML-LAB/contacts.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/HTML-LAB/formatting.html b/HTML-LAB/formatting.html
++new file mode 100644
++index 0000000..ba8e846
++--- /dev/null
+++++ b/HTML-LAB/formatting.html
++@@ -0,0 +1,34 @@
+++<html></html><p>
+++<b> &lt;b&gt; is where you BOLD the text</b>
+++</p>
+++<p>
+++<strong>   &lt;strong&gt; is to define a text with STRONG importance. </strong>
+++</p>
+++<p>
+++<i>    &lt;i&gt; it ITALICS the text in HTML </i> 
+++</p>
+++<p>
+++<em>    &lt;em&gt; it Emphasis the text in HTML </em> 
+++</p>
+++<p>
+++<u>    &lt;u&gt; it Underlines the text in HTML </u> 
+++</p>
+++<p>
+++<mark>    &lt;mark&gt; it Highlights the text in HTML </mark> 
+++</p>
+++<p>
+++<small>    &lt;small&gt; it decrease the size of the text in HTML </small> 
+++</p>
+++<p>
+++<del>    &lt;del&gt; it strikes a line in the text in HTML </del> 
+++</p>
+++<p>
+++<ins>    &lt;ins&gt; it shows that the text is newly inserted in the HTML </ins> 
+++</p>
+++<p>
+++<sub>    &lt;sub&gt;  Lowers the text baseline and shrinks it the text in HTML </sub> 
+++</p>
+++<p>
+++<sup>    &lt;sup&gt; Raises the text baseline and shrinks it text in HTML </sup> 
+++</p>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/images.html b/HTML-LAB/images.html
++new file mode 100644
++index 0000000..1825121
++--- /dev/null
+++++ b/HTML-LAB/images.html
++@@ -0,0 +1,21 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <body style = background-color:hotpink;>
+++    <center><h1>======================================================================</h1></center>
+++    <center><h1>LAB ACTIVITY 5: IMAGES</h1></center>
+++    <center><h1>======================================================================</h1></center>
+++ <center><img
+++        src="images/68f479d22eadab6b3e2605bab7db41f6.jpg"
+++        alt="Profile Picture"
+++        width="600"
+++        height="600"></center>
+++        <h1><center>TRISTAN PAUL DELAROSA</center></h1>
+++        <h2><center>AN IT STUDENTS WITH A PASSION FOR BEING TO SLAYABLE</center></h2>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg b/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg
++new file mode 100644
++index 0000000..7e65536
++Binary files /dev/null and b/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg differ
++diff --git a/HTML-LAB/index.html b/HTML-LAB/index.html
++new file mode 100644
++index 0000000..cabe39b
++--- /dev/null
+++++ b/HTML-LAB/index.html
++@@ -0,0 +1,24 @@
+++<!DOCTYPE html>
+++<html>
+++<head>
+++<title>GAYYYYYYY</title>
+++
+++<body>
+++    <h1>==========================</h1>
+++    <h1>    My Personal Page</h1>
+++    <h1>==========================</h1>
+++    <h2>My name is Tristan Paul Y. Delaroas</h2>
+++    <h2>CIT14 CITCS-2K GROUP B </h2>
+++    <h2>About me</h2>
+++    <h2>----------------------</h2>
+++    <p>My name is Tristan Paul Delarosa, I am 19 years old, I was was born December 30, 2006 in Agoo, La Union</p>
+++    <h2>My Hobbies</h2>
+++    <h2>----------------------</h2>
+++    <p>My Hobbies are, Playing Games, Live streaming, Singing, Doing Make-up, and Voice Acting Acting</p>
+++    <p>To close this of I would like to say that I will try my best, and GOD will do the the rest, CHARRR!!!</p>
+++    <h2>----------------------</h2>
+++</body>
+++</head>
+++</html>
+++
+++!
++\ No newline at end of file
++diff --git a/HTML-LAB/links.html b/HTML-LAB/links.html
++new file mode 100644
++index 0000000..78de59a
++--- /dev/null
+++++ b/HTML-LAB/links.html
++@@ -0,0 +1,30 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>LINKS</title>
+++</head>
+++<body>
+++    <h1><center>==========================================================================</center></h1>
+++    <h1><center>EXTERNAL LINKS</center></h1>
+++    <h1><center>==========================================================================</center></h1>
+++    <h2><center>GOOGLE</center></h2>
+++   <center><a href="https://google.com">google</a></center>
+++   <h1><center>==========================================================================</center></h1>
+++   <center><h2>YOUTUBE</h2></center>
+++   <center><a href="https://youtube.com">youtube</a></center>
+++   <h1><center>==========================================================================</center></h1>
+++   <center><h2>GITHUB</h2></center>
+++   <center><a href="https://github.com">github</a></center>
+++   <h1><center>==========================================================================</center></h1>
+++   <center><h2>UC CANVAS</h2></center>
+++   <center><a href="https://uc-bcf.instructure.com">UC CANVAS</a></center>
+++   <h1><center>==========================================================================</center></h1>
+++    <h1><center>INTERNAL LINKS</center></h1>
+++    <center><a href="Index.html">HOME</a>
+++    <a href="about.html">ABOUT</a>
+++    <a href="contact.html">CONTACTS</a></center>
+++    <h1><center>==========================================================================</center></h1>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/listing.html b/HTML-LAB/listing.html
++new file mode 100644
++index 0000000..71c1b13
++--- /dev/null
+++++ b/HTML-LAB/listing.html
++@@ -0,0 +1,49 @@
+++<html>
+++<title>LIST</title>
+++<h1><center>==========================================================================</center></h1>
+++<h1><center>MY LIST</center></h1>
+++<h1><center>==========================================================================</center></h1>
+++<h2>============================================</center></h2>
+++<h2>MY FAVORITE FOODS</h2>
+++<h2>============================================</h2>
+++<ul>
+++    <li>Adobo Baboy</li>
+++    <li>Balatong</li>
+++    <li>Sinigang Baboy</li>
+++    <li>Fried Chicken</li>
+++    <li>Dinuguan</li>
+++</ul> 
+++<h2>============================================</h2>
+++<h2>TOP 5 PROGRAMMING LANGUAGES</h2>
+++<h2>============================================</h2>
+++<ol>
+++    <li>CSS</li>
+++    <li>JAVASCRIPT</li>
+++    <li>HTML</li>
+++    <li>PHYTON</li>
+++    <li>JAVA</li>
+++</ol>
+++<h2>============================================</h2>
+++<h2>NESTED LIST</h2>
+++<h2>============================================</h2>
+++<ul>
+++    <li>COMPUTER SCIENCE</li>
+++        <ul>
+++            <li>PROGRAMMING</li>
+++            <ul>
+++                <li>JAVA</li>
+++                <li>PYTHON</li>
+++                <li>PHP</li>
+++            </ul>
+++        </ul>
+++        <ul>
+++            <li>WEB DEVELOPMENT</li>
+++            <ul>
+++                <li>HTML</li>
+++                <li>CSS</li>
+++                <li>JAVASCRIPT</li>
+++            </ul>
+++        </ul>
+++</ul>
+++
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/registration.html b/HTML-LAB/registration.html
++new file mode 100644
++index 0000000..aee42f1
++--- /dev/null
+++++ b/HTML-LAB/registration.html
++@@ -0,0 +1,51 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <center><h1>====================================================================================================</h1></center>
+++    <center><h1>STUDENT REGISTRATION FORM</h1></center>
+++    <center><h1>====================================================================================================</h1></center>
+++<form act="#" method="post">
+++    <laber for="fullname">FULLNAME</laber>
+++    <input type="text" id="fullname" name="fullname" required>
+++    <br><br>
+++
+++    <laber for="studentid">STUDENT ID</laber>
+++    <input type="text" id="studentid" name="studentid" required>
+++    <br><br>
+++
+++    <laber for="email">EMAIL</laber>
+++    <input type="text" id="email" name="email" required>
+++    <br><br>
+++    <laber for="password">PASSWORD</laber>
+++    <input type="password" id="password" name="password" required>
+++    <br><br>
+++
+++    <laber for="birthday">BIRTHDAY</laber>
+++    <input type="date" id="fullname" name="fullname" required>
+++    <br><br>
+++
+++    <laber>GENDER:</laber>
+++    <input type="radio" id="male" name="gender" value="male" required>
+++    <label for="male">MALE</label>
+++
+++        <input type="radio" id="female" name="gender" value="female" required>
+++    <label for="female">FEMALE</label>
+++
+++        <input type="radio" id="other" name="gender" value="other required>
+++    <label for="other">OTHER</label>
+++    <br><br>
+++
+++    <label for="program">PROGRAM</label>
+++    <select id="program" name=program required>
+++        <center><option value="">==PICK A PROGRAM==</option></center>
+++        <option value="BSIT">BACHELOR SCIENCE OF INFORMATION TECHNOLOGY</option>
+++        <option value="BSCS">BACHELOR SCIENCE OF COMPUTER TECHNOLOGY</option>
+++        <option value="BSMMA">BACHELOR SCIENCE OF MULTIMEDIA ARTS</option>
+++    </select>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/HTML-LAB/schedule.html b/HTML-LAB/schedule.html
++new file mode 100644
++index 0000000..d88233e
++--- /dev/null
+++++ b/HTML-LAB/schedule.html
++@@ -0,0 +1,64 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++      <center><h1>====================================================================================================</h1></center>
+++      <center><h1>LAB 6 LISTING</h1></center>
+++      <center><h1>====================================================================================================</h1></center>
+++    <table>
+++        <tr>
+++            <th>Day</th>
+++            <th>Time</th>
+++            <th>Subject</th>
+++            <th>Room</th>
+++            <th>Instructor</th>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>8:00 AM</td>
+++        <td>CIT14</td>
+++        <td>LAB 1</td>
+++        <td>SIR PRIM</td>
+++        </tr>
+++        <tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>10:00 AM</td>
+++        <td>CC5</td>
+++        <td>LAB 2</td>
+++        <td>SIR JESSIE</td>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>12:00 AM</td>
+++        <td>PathFit 4</td>
+++        <td>GYM</td>
+++        <td>SIR GARRICKSON</td>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>1:00 PM</td>
+++        <td>CIT1</td>
+++        <td>U805</td>
+++        <td>MA'AM ORTIZ</td>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>2:00 AM</td>
+++        <td>SCIENCE 100</td>
+++        <td>S230</td>
+++        <td>MA'AAM VILLAREAL</td>
+++        </tr>
+++        <tr>
+++        <td>Monday</td>
+++        <td>4:00 AM</td>
+++        <td>SOC SCI</td>
+++        <td>S237</td>
+++        <td>MA'AM DELA CRUZ</td>
+++        </tr>
+++</body>
+++</html>
++diff --git a/README.md b/README.md
++deleted file mode 100644
++index 862d896..0000000
++--- a/README.md
+++++ /dev/null
++@@ -1 +0,0 @@
++-# WEBTECH
++\ No newline at end of file
++diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
++index e69de29..74e0f12 100644
++--- a/emmet-laboratory/index.html
+++++ b/emmet-laboratory/index.html
++@@ -0,0 +1 @@
+++!
++\ No newline at end of file
++
++commit 12d1cd3e352d60b8494f9b180093d49cc851e5a9
++Author:     D1VA41123 <delarosachristian155@gmail.com>
++AuthorDate: 2026-10-03 04:02:25 +0000
++Commit:     D1VA41123 <delarosachristian155@gmail.com>
++CommitDate: 2026-10-03 04:02:25 +0000
++
++    test
++
++diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
++new file mode 100644
++index 0000000..74e0f12
++--- /dev/null
+++++ b/emmet-laboratory/02-classes-ids.html
++@@ -0,0 +1 @@
+++!
++\ No newline at end of file
++diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
++new file mode 100644
++index 0000000..e69de29
++
++commit a0f92be54a2b89b9a76016a47046c40e63a48bb5
++Author:     D1VA41123 <delarosachristian155@gmail.com>
++AuthorDate: 2026-09-15 11:46:25 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-15 11:46:25 +0800
++
++    Initial commit
++
++diff --git a/README.md b/README.md
++new file mode 100644
++index 0000000..862d896
++--- /dev/null
+++++ b/README.md
++@@ -0,0 +1 @@
+++# WEBTECH
++\ No newline at end of file
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+deleted file mode 100644
+index 74e0f12..0000000
+--- a/emmet-laboratory/02-classes-ids.html
++++ /dev/null
+@@ -1 +0,0 @@
+-!
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..16b2eca
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <input type="text" placeholder="Enter your Name"> <br>
++    <input type="email" placeholder="Enter your email">
++    <input type="password" placeholder="Password"> <br>
++    <input type="radio" placeholder="gender">Male</input> <br>
++    <input type="radio" placeholder="gender">Female</input> <br>
++    <input type="radio" placeholder="gender">Other</input> <br>
++    <input type="checkbox" placeholder="school year">1st Year</input> <br>
++    <input type="submit" palceholder="submit"> <br>
++
++</body>
 +</html>
 \ No newline at end of file
-diff --git a/HTML-LAB/images.html b/HTML-LAB/images.html
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
 new file mode 100644
-index 0000000..1825121
+index 0000000..3c82a7f
 --- /dev/null
-+++ b/HTML-LAB/images.html
-@@ -0,0 +1,21 @@
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,35 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Semantic</title>
++</head>
++<body>
++    <header>
++        <h1> <CEnter> HELLO EVERYNYAN!!!!!!!!</CEnter></h1>
++    </header>
++
++<nav>
++    <ul>
++        <li><a href="index.html">About Me</a></li>
++        <li><a href="01-basic.html">Basic</a></li>
++        <li><a href="02-classes-ids.html">Classes</a></li>
++        <li><a href="04-form.html">Forms</a></li>
++    </ul>
++
++<main>
++    <section>
++        <article><h2>My life</h2>
++            <p>Made by: ME, MYSELF AND I</p>
++        </article>
++    </section>
++</main>
++
++<footer>
++    <p><h1><center>BYEEEEEEEEEEEEEEEEEEEE</center></h1></p>
++</footer>
++
++</nav>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/Complex.html b/emmet-laboratory/Complex.html
+new file mode 100644
+index 0000000..206e3a1
+--- /dev/null
++++ b/emmet-laboratory/Complex.html
+@@ -0,0 +1,26 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <div>
++        <container>
++            <header>
++                <h1>My Portfolio</h1>
++                <p>Web Development</p>
++                <nav>
++                    <ul>
++                        <li><a href="">Menu 1</a></li>
++                        <li><a href="">Menu 2</a></li>
++                        <li><a href="">Menu 3</a></li>
++                        <li><a href="">Menu 4</a></li>
++                    </ul>
++                </nav>
++            </header>
++        </container>
++    </div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/img/istockphoto-2216687316-612x612.jpg b/emmet-laboratory/img/istockphoto-2216687316-612x612.jpg
+new file mode 100644
+index 0000000..e09ba31
+Binary files /dev/null and b/emmet-laboratory/img/istockphoto-2216687316-612x612.jpg differ
+diff --git a/emmet-laboratory/img/meme.jpg b/emmet-laboratory/img/meme.jpg
+new file mode 100644
+index 0000000..9cfb3f9
+Binary files /dev/null and b/emmet-laboratory/img/meme.jpg differ
+diff --git a/emmet-laboratory/img/tetoo.jpg b/emmet-laboratory/img/tetoo.jpg
+new file mode 100644
+index 0000000..7e6c72e
+Binary files /dev/null and b/emmet-laboratory/img/tetoo.jpg differ
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+index 74e0f12..d01f779 100644
+--- a/emmet-laboratory/index.html
++++ b/emmet-laboratory/index.html
+@@ -1 +1,11 @@
+-!
+\ No newline at end of file
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/pages/Projects/01-basic.html b/emmet-laboratory/pages/Projects/01-basic.html
+new file mode 100644
+index 0000000..537a1bd
+--- /dev/null
++++ b/emmet-laboratory/pages/Projects/01-basic.html
+@@ -0,0 +1,28 @@
 +<!DOCTYPE html>
 +<html lang="en">
 +<head>
@@ -67,153 +957,152 @@ index 0000000..1825121
 +    <title>Document</title>
 +</head>
 +<body>
-+    <body style = background-color:hotpink;>
-+    <center><h1>======================================================================</h1></center>
-+    <center><h1>LAB ACTIVITY 5: IMAGES</h1></center>
-+    <center><h1>======================================================================</h1></center>
-+ <center><img
-+        src="images/68f479d22eadab6b3e2605bab7db41f6.jpg"
-+        alt="Profile Picture"
-+        width="600"
-+        height="600"></center>
-+        <h1><center>TRISTAN PAUL DELAROSA</center></h1>
-+        <h2><center>AN IT STUDENTS WITH A PASSION FOR BEING TO SLAYABLE</center></h2>
++    <h1>HEADER 1</h1>
++    <h2>HELLO</h2>
++    <h2>WORLD</h2>
++    <p>#EMIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII</p>
++    <p>Eklavur mga bes</p>
++    <p>Wassup mga gays</p>
++    <div>Saging saging, Manga Manga, Papaya Papaya</div>
++    <span style="color: hotpink; font-weight: bold;">Bombaaaa</span>
++    <header> <a href="index.html">About Me & Myself</a></header>
++    <nav>
++        <ul>
++            <li><a href="index.html">About Me & Myself</a></li>
++            <li><a href="02-classes-ids.html">Classes Ids</a></li>
++        </ul>
++    </nav>
++    <main>Haller Haller Haller</main>
++    <footer><center>DIKA NYA MAHAL INAMOOOOO</center></footer>
++    
 +</body>
 +</html>
 \ No newline at end of file
-diff --git a/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg b/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg
+diff --git a/emmet-laboratory/pages/Projects/02-classes-ids.html b/emmet-laboratory/pages/Projects/02-classes-ids.html
 new file mode 100644
-index 0000000..7e65536
-Binary files /dev/null and b/HTML-LAB/images/68f479d22eadab6b3e2605bab7db41f6.jpg differ
-diff --git a/HTML-LAB/index.html b/HTML-LAB/index.html
-new file mode 100644
-index 0000000..cabe39b
+index 0000000..2ab66e7
 --- /dev/null
-+++ b/HTML-LAB/index.html
-@@ -0,0 +1,24 @@
-+<!DOCTYPE html>
-+<html>
-+<head>
-+<title>GAYYYYYYY</title>
-+
-+<body>
-+    <h1>==========================</h1>
-+    <h1>    My Personal Page</h1>
-+    <h1>==========================</h1>
-+    <h2>My name is Tristan Paul Y. Delaroas</h2>
-+    <h2>CIT14 CITCS-2K GROUP B </h2>
-+    <h2>About me</h2>
-+    <h2>----------------------</h2>
-+    <p>My name is Tristan Paul Delarosa, I am 19 years old, I was was born December 30, 2006 in Agoo, La Union</p>
-+    <h2>My Hobbies</h2>
-+    <h2>----------------------</h2>
-+    <p>My Hobbies are, Playing Games, Live streaming, Singing, Doing Make-up, and Voice Acting Acting</p>
-+    <p>To close this of I would like to say that I will try my best, and GOD will do the the rest, CHARRR!!!</p>
-+    <h2>----------------------</h2>
-+</body>
-+</head>
-+</html>
-+
-+!
-\ No newline at end of file
-diff --git a/HTML-LAB/links.html b/HTML-LAB/links.html
-new file mode 100644
-index 0000000..78de59a
---- /dev/null
-+++ b/HTML-LAB/links.html
-@@ -0,0 +1,30 @@
++++ b/emmet-laboratory/pages/Projects/02-classes-ids.html
+@@ -0,0 +1,75 @@
 +<!DOCTYPE html>
 +<html lang="en">
 +<head>
 +    <meta charset="UTF-8">
 +    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-+    <title>LINKS</title>
++    <title>Document</title>
 +</head>
 +<body>
-+    <h1><center>==========================================================================</center></h1>
-+    <h1><center>EXTERNAL LINKS</center></h1>
-+    <h1><center>==========================================================================</center></h1>
-+    <h2><center>GOOGLE</center></h2>
-+   <center><a href="https://google.com">google</a></center>
-+   <h1><center>==========================================================================</center></h1>
-+   <center><h2>YOUTUBE</h2></center>
-+   <center><a href="https://youtube.com">youtube</a></center>
-+   <h1><center>==========================================================================</center></h1>
-+   <center><h2>GITHUB</h2></center>
-+   <center><a href="https://github.com">github</a></center>
-+   <h1><center>==========================================================================</center></h1>
-+   <center><h2>UC CANVAS</h2></center>
-+   <center><a href="https://uc-bcf.instructure.com">UC CANVAS</a></center>
-+   <h1><center>==========================================================================</center></h1>
-+    <h1><center>INTERNAL LINKS</center></h1>
-+    <center><a href="Index.html">HOME</a>
-+    <a href="about.html">ABOUT</a>
-+    <a href="contact.html">CONTACTS</a></center>
-+    <h1><center>==========================================================================</center></h1>
++    <p class="introduction"></p>
++    <div id="container"></div>
++    <div class="car featured"></div>
++    <section id="" class="about content-section"></section>
++
++    <header class="site-header"></header>
++    <nav id="main-nav"></nav>
++    <main class="content"></main>
++    <section id="about"></section>
++    <footer class="site-footer"></footer>
++
++    <ul>
++        <li></li>
++    </ul>
++
++    <nav>
++        <ul>
++            <li></li>
++        </ul>
++    </nav>
++
++
++    <nav>
++        <ul>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++        </ul>
++    </nav>
++
++    <h1></h1>
++    <p></p>
++
++    <h1></h1>
++    <h2></h2>
++    <p></p>
++    <p></p>
++
++    <li></li>
++    <li></li>
++    <li></li>
++    <li></li>
++    <li></li>
++
++    <div></div>
++    <div></div>
++    <div></div>
++
++    <p></p>
++    <p></p>
++    <p></p>
++    <p></p>
++    <p></p>
++
++    <h1>Web Technologies</h1>
++
++    <p>Welcome to my Page</p>
++
++    <h1>My Web Development Journey</h1>
++    <p>I am learning HTML, CSS, JAVASCRIPT, AND WEB DEVELPOMENT</p>
++    
++
++
 +</body>
 +</html>
 \ No newline at end of file
-diff --git a/HTML-LAB/listing.html b/HTML-LAB/listing.html
+diff --git a/emmet-laboratory/pages/Projects/03-navigation.html b/emmet-laboratory/pages/Projects/03-navigation.html
 new file mode 100644
-index 0000000..71c1b13
+index 0000000..dec019c
 --- /dev/null
-+++ b/HTML-LAB/listing.html
-@@ -0,0 +1,49 @@
-+<html>
-+<title>LIST</title>
-+<h1><center>==========================================================================</center></h1>
-+<h1><center>MY LIST</center></h1>
-+<h1><center>==========================================================================</center></h1>
-+<h2>============================================</center></h2>
-+<h2>MY FAVORITE FOODS</h2>
-+<h2>============================================</h2>
-+<ul>
-+    <li>Adobo Baboy</li>
-+    <li>Balatong</li>
-+    <li>Sinigang Baboy</li>
-+    <li>Fried Chicken</li>
-+    <li>Dinuguan</li>
-+</ul> 
-+<h2>============================================</h2>
-+<h2>TOP 5 PROGRAMMING LANGUAGES</h2>
-+<h2>============================================</h2>
-+<ol>
-+    <li>CSS</li>
-+    <li>JAVASCRIPT</li>
-+    <li>HTML</li>
-+    <li>PHYTON</li>
-+    <li>JAVA</li>
-+</ol>
-+<h2>============================================</h2>
-+<h2>NESTED LIST</h2>
-+<h2>============================================</h2>
-+<ul>
-+    <li>COMPUTER SCIENCE</li>
-+        <ul>
-+            <li>PROGRAMMING</li>
-+            <ul>
-+                <li>JAVA</li>
-+                <li>PYTHON</li>
-+                <li>PHP</li>
-+            </ul>
-+        </ul>
-+        <ul>
-+            <li>WEB DEVELOPMENT</li>
-+            <ul>
-+                <li>HTML</li>
-+                <li>CSS</li>
-+                <li>JAVASCRIPT</li>
-+            </ul>
-+        </ul>
-+</ul>
++++ b/emmet-laboratory/pages/Projects/03-navigation.html
+@@ -0,0 +1,31 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>
 +
++        <ul>
++            <li>Menu 1</li>
++            <li>Menu 2</li>
++            <li>Menu 3</li>
++            <li>Menu 4</li>
++            <li>Menu 5</li>
++        </ul>
++    </ul>
++
++    <input type="text" placeholder="">
++    <input type="email" placeholder="Enter your Email">
++    <input type="text">
++    <img src="meme.jpg" alt="Profile Photo">
++    <a href="https://www.google.com">Google</a>
++</body>
 +</html>
 \ No newline at end of file
-diff --git a/HTML-LAB/registration.html b/HTML-LAB/registration.html
+diff --git a/emmet-laboratory/pages/Projects/registration.html b/emmet-laboratory/pages/Projects/registration.html
 new file mode 100644
 index 0000000..aee42f1
 --- /dev/null
-+++ b/HTML-LAB/registration.html
++++ b/emmet-laboratory/pages/Projects/registration.html
 @@ -0,0 +1,51 @@
 +<!DOCTYPE html>
 +<html lang="en">
@@ -267,131 +1156,164 @@ index 0000000..aee42f1
 +</body>
 +</html>
 \ No newline at end of file
-diff --git a/HTML-LAB/schedule.html b/HTML-LAB/schedule.html
+diff --git a/emmet-laboratory/pages/about.html b/emmet-laboratory/pages/about.html
 new file mode 100644
-index 0000000..d88233e
+index 0000000..5128c71
 --- /dev/null
-+++ b/HTML-LAB/schedule.html
-@@ -0,0 +1,64 @@
++++ b/emmet-laboratory/pages/about.html
+@@ -0,0 +1,21 @@
 +<!DOCTYPE html>
 +<html lang="en">
 +<head>
 +    <meta charset="UTF-8">
 +    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-+    <title>Document</title>
++    <title>about</title>
 +</head>
 +<body>
-+      <center><h1>====================================================================================================</h1></center>
-+      <center><h1>LAB 6 LISTING</h1></center>
-+      <center><h1>====================================================================================================</h1></center>
-+    <table>
-+        <tr>
-+            <th>Day</th>
-+            <th>Time</th>
-+            <th>Subject</th>
-+            <th>Room</th>
-+            <th>Instructor</th>
-+        </tr>
-+        <tr>
-+        <td>Monday</td>
-+        <td>8:00 AM</td>
-+        <td>CIT14</td>
-+        <td>LAB 1</td>
-+        <td>SIR PRIM</td>
-+        </tr>
-+        <tr>
-+        <tr>
-+        <td>Monday</td>
-+        <td>10:00 AM</td>
-+        <td>CC5</td>
-+        <td>LAB 2</td>
-+        <td>SIR JESSIE</td>
-+        </tr>
-+        <tr>
-+        <td>Monday</td>
-+        <td>12:00 AM</td>
-+        <td>PathFit 4</td>
-+        <td>GYM</td>
-+        <td>SIR GARRICKSON</td>
-+        </tr>
-+        <tr>
-+        <td>Monday</td>
-+        <td>1:00 PM</td>
-+        <td>CIT1</td>
-+        <td>U805</td>
-+        <td>MA'AM ORTIZ</td>
-+        </tr>
-+        <tr>
-+        <td>Monday</td>
-+        <td>2:00 AM</td>
-+        <td>SCIENCE 100</td>
-+        <td>S230</td>
-+        <td>MA'AAM VILLAREAL</td>
-+        </tr>
-+        <tr>
-+        <td>Monday</td>
-+        <td>4:00 AM</td>
-+        <td>SOC SCI</td>
-+        <td>S237</td>
-+        <td>MA'AM DELA CRUZ</td>
-+        </tr>
++    <body style= background-color:hotpink>
++        
++    </body>
++    <div style="text-align: center;">
++    <img src="img2/ello.jpg" alt="Profile" width="300" height="300">
++    </div>
++
++    <p><h2><center>My name is Tristan Paul Y. Delarosa, I was born in December 30, 2006 at La Union.</center></h2></p>
++    <p><h2><center>I am from Panagasinan ans I am here at baguio to pursue that couse that I take which is the Bachelor Degree of Infomation Technology</center></h2></p>
++    <p><h2><center>The languages that I learned and mastered are, HTML, CSS, Java, and Javascript</center></h2></p>
++
 +</body>
 +</html>
-diff --git a/README.md b/README.md
-deleted file mode 100644
-index 862d896..0000000
---- a/README.md
-+++ /dev/null
-@@ -1 +0,0 @@
--# WEBTECH
 \ No newline at end of file
-diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
-index e69de29..74e0f12 100644
---- a/emmet-laboratory/index.html
-+++ b/emmet-laboratory/index.html
-@@ -0,0 +1 @@
-+!
-\ No newline at end of file
-
-commit 12d1cd3e352d60b8494f9b180093d49cc851e5a9
-Author:     D1VA41123 <delarosachristian155@gmail.com>
-AuthorDate: 2026-10-03 04:02:25 +0000
-Commit:     D1VA41123 <delarosachristian155@gmail.com>
-CommitDate: 2026-10-03 04:02:25 +0000
-
-    test
-
-diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+diff --git a/emmet-laboratory/pages/contacts.html b/emmet-laboratory/pages/contacts.html
 new file mode 100644
-index 0000000..e69de29
-diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
-new file mode 100644
-index 0000000..74e0f12
+index 0000000..137b5f9
 --- /dev/null
-+++ b/emmet-laboratory/02-classes-ids.html
-@@ -0,0 +1 @@
-+!
++++ b/emmet-laboratory/pages/contacts.html
+@@ -0,0 +1,20 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Contacts</title>
++</head>
++<body>
++    <header>
++        <h2>
++            <center>Contacts</center>
++        </h2>
++    </header>
++    <input type="text" placeholder="Full Name"> <br>
++    <br><input type="email" placeholder="Email"> <br>
++    <br><input type="text" placeholder="Subject" style=" width: 400px; height: 50px" > <br>
++    <br><input type="text" placeholder="What is you concern/message" style="width: 400px; height: 90px"></br>
++    <input type="button" value="Submit Message">
++</body>
++</html>
 \ No newline at end of file
-diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+diff --git a/emmet-laboratory/pages/ellooo.png b/emmet-laboratory/pages/ellooo.png
 new file mode 100644
-index 0000000..e69de29
-
-commit a0f92be54a2b89b9a76016a47046c40e63a48bb5
-Author:     D1VA41123 <delarosachristian155@gmail.com>
-AuthorDate: 2026-09-15 11:46:25 +0800
-Commit:     GitHub <noreply@github.com>
-CommitDate: 2026-09-15 11:46:25 +0800
-
-    Initial commit
-
-diff --git a/README.md b/README.md
+index 0000000..65a28d8
+Binary files /dev/null and b/emmet-laboratory/pages/ellooo.png differ
+diff --git a/emmet-laboratory/pages/projects.html b/emmet-laboratory/pages/projects.html
 new file mode 100644
-index 0000000..862d896
+index 0000000..f14ef41
 --- /dev/null
-+++ b/README.md
-@@ -0,0 +1 @@
-+# WEBTECH
++++ b/emmet-laboratory/pages/projects.html
+@@ -0,0 +1,26 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Projects</title>
++</head>
++<body>
++  <center>
++    <header>
++        <h1>My Projects</h1>
++    </header>
++  </center>
++
++  <ul>
++    <li><a href="Projects/registration.html">Registration</a></li>
++    <p><b>A simple registration for the students of the CITCS Department</b></p>
++    <li><a href="Projects/01-basic.html">01-Basic</a></li>
++    <p><b>A simple demostration in the emmet commands</b></p>
++    <li><a href="Projects/02-classes-ids.html">Class ID</a></li>
++    <p><b>A bunch of classes shortcuts for emmet</b></p>
++    <li><a href="Projects/03-navigation.html">Navigation</a></li>
++    <p><b>A Navigation through different types, helps eith organizing list</b></p>
++  </ul>
++</body>
++</html>
 \ No newline at end of file
+diff --git a/emmet-laboratory/pages/skills.html b/emmet-laboratory/pages/skills.html
+new file mode 100644
+index 0000000..5a7526f
+--- /dev/null
++++ b/emmet-laboratory/pages/skills.html
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Skills</title>
++</head>
++<body>
++    <body style="background-color: hotpink;">
++        
++    </body>
++
++    <h1><center>My Skills</center></h1>
++    <h2>
++        <ul>
++            <li>HTML</li>
++            <li>CSS</li>
++            <li>Javascript</li>
++            <li>Java</li>
++            <li>Video Editing</li>
++        </ul>
++    </h2>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..4c26325
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,27 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Portfolio</title>
++</head>
++<body>
++     <h1>Student Portfolio</h1>
++     <h2><p>Tristan Paul Y. Delarosa</p></h2>
++     <h2><p>A passionate I.T. Students that believes that life is short, so live like its your last day</p></h2>
++     <div class="container">
++        <header>
++            <h3>Navigation</h3>
++            <nav>
++                <ul>
++                    <li><a href="portfolio.html">Home</a></li>
++                    <li><a href="pages/about.html">About</a></li>
++                    <li><a href="pages/skills.html">Skills</a></li>
++                    <li><a href="pages/projects.html">Projects</a></li>
++                    <li><a href="pages/contacts.html">Contacts</a></li>
++                </ul>
++            </nav>
++        </header>
++     </div>
++</body>
++</html>
+\ No newline at end of file
+
 commit 976a9c3f38b3caa60ca7db44dd0fe36b506753ae
 Author:     D1VA41123 <delarosachristian155@gmail.com>
 AuthorDate: 2026-10-03 04:05:20 +0000
