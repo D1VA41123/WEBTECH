@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: lightpink;
+}
+h1 {
+    color : darkblue;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: darkgreen
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color : #145da0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

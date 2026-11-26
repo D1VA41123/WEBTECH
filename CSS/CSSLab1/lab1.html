@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: lightgray; padding: 20px;">
+<h1>Inline CSS</h1>
+    <h1 style="color: darkblue">My First CSS Page</h1>
+    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 16px;">CSS is used to change the output of the Web</p>
+    <p style="font-family: Arial, Helvetica, sans-serif ; font-size: 16px;">It gives color and style and overall makes the website more friendly and engaging</p>
+</body>
+
+    <style>
+        body{
+            background-color: lightgray;
+            padding: 20px;
+        }
+        h1{
+            color: darkblue
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+    </style>
+    <body>
+        <h1>Internal CSS</h1>
+        <h1>My First CSS Page</h1>
+        <p>CSS is used to change the output of the Web</p>
+        <p>It gives color and style and overall makes the website more friendly and engaging</p>
+    </body>
+    
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <h1>External Page</h1>
+        <h1>My First CSS Page</h1>
+        <p>CSS is used to change the output of the Web</p>
+        <p>It gives color and style and overall makes the website more friendly and engaging</p>
+    </body>
+ <!-- What is the difference between inline, internal, and external CSS?
+Inline CSS: You write CSS directly inside an opening HTML tag using the style attribute. It only changes that specific element, which makes it hard to maintain across large projects.
+Internal CSS: You place all CSS rules inside a <style> tag within the <head> section of an HTML file. This keeps styles organized for one specific page, though you must copy the code to apply it elsewhere.
+External CSS: You save your styles in a standalone .css file and connect it to your HTML pages using a <link> tag. This separates your design from your content and lets you update an entire website by editing just one file.-->
+<!--Which method would you use for a website with multiple pages? Explain why.
+Using a single external .css file linked to all your HTML pages is the industry standard for multi-page projects. It keeps your codebase organized and makes site-wide updates fast and reliable.-->
+</html>
